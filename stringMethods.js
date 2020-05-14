@@ -4,7 +4,7 @@ string.indexOf()
 //a method denoted by the ()
 //will take a string argument in the ()
 //argument returns index of item in string starting from 0
- let hamilton = 'polymath pain in the ass'
+let hamilton = 'polymath pain in the ass'
 hamilton.indexOf('o') //will give you the first occurence of 'o'. value returns 1 since 'o' is in the index of 1. 
 //.indexOf('i',2)
 //search for the virst instance of 'i'starting from search position 2
@@ -42,9 +42,9 @@ eliza.slice(12)
 //will ouput 'look around!'
 
 string.split()
-//willconvert string to an array
+//will convert string to an array
 //inputs in () are known as delimiters
- let Hamilton = 'Not throwing away my shot'
+let Hamilton = 'Not throwing away my shot'
 string.split('not')
 // output will be 'throwing away my shot'
 //delimiter is removed from string
@@ -90,7 +90,7 @@ Math.max()
 Math.random()
 //outputs random number between 0 and 1.
 // 0, .5, .6, .45, .39, 1, ect
-Math.random()*10
+Math.random() * 10
 //will return random value between 1 and 10.
 //combine with Math.round() to get a number without a decimal.
-Math.round(Math.random)*10
+Math.round(Math.random) * 10
